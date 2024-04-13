@@ -5,10 +5,11 @@
 @font-face {
   font-family: "american_captainregular";
   src: url('../../fonts/americancaptain-webfont.woff')format('woff'),
-  url('../../fonts/americancaptain-webfont.woff2')format('woff2'),
-  url('../../fonts/AmericanCaptain.ttf')format('truetype'),
-  url('../../fonts/AmericanCaptain.otf')format('opentype');
+    url('../../fonts/americancaptain-webfont.woff2')format('woff2'),
+    url('../../fonts/AmericanCaptain.ttf')format('truetype'),
+    url('../../fonts/AmericanCaptain.otf')format('opentype');
 }
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,12 +26,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -38,10 +36,28 @@ body {
     text-wrap: balance;
   }
 }
-h1, span, p, a{
+
+h1,
+h2,
+h3,
+span,
+p,
+a {
   font-family: 'american_captainregular', Arial, sans-serif;
-  font-size:large;
+  font-size: large;
 }
-#HeroSection{
+
+#HeroSection {
   background-image: url('../../public/car-mine.jpg');
+}
+
+#Triangle {
+  opacity: 0.7;
+  border-top: 60vh solid transparent;
+  border-bottom: 60vh solid transparent;
+  border-left: 110vh solid rgb(0, 0, 0);
+}
+#HeroText{
+  padding-top: 40vh;
+  max-width: 80%;
 }
