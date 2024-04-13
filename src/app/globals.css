@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "american_captainregular";
+  src: url('../../fonts/americancaptain-webfont.woff')format('woff'),
+  url('../../fonts/americancaptain-webfont.woff2')format('woff2'),
+  url('../../fonts/AmericanCaptain.ttf')format('truetype'),
+  url('../../fonts/AmericanCaptain.otf')format('opentype');
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +37,11 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+h1, span, p, a{
+  font-family: 'american_captainregular', Arial, sans-serif;
+  font-size:large;
+}
+#HeroSection{
+  background-image: url('../../public/car-mine.jpg');
 }
