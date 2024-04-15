@@ -52,7 +52,7 @@ a {
 }
 
 #Triangle {
-  opacity: 0.7;
+  opacity: 0.8;
   border-top: 60vh solid transparent;
   border-bottom: 60vh solid transparent;
   border-left: 110vh solid rgb(0, 0, 0);
