@@ -1,5 +1,10 @@
 import Image from "next/image";
 import KidPlaying from "../../public/rctracks-kidplaying.jpg";
+import FamilyIcon from '../../public/family-black-silhouette-icon-vector-22372438.png'
+import CarOnlyIcon from '../../public/RC_LOGO_CARONLY.png';
+import RaceTrack from '../../public/race_track_icon_153937.png';
+
+
 
 
 export default function Home() {
@@ -18,50 +23,42 @@ export default function Home() {
       </div>
       <div className="w-full h-4 bg-amber-400"></div>
       <div className="container mx-auto">
-        <section className="">
+        <section>
           <div className="block">
-            <div className="flex flex-wrap items-center">
+            <div className="flex flex-wrap bg-[#3B3B3B]">
               <div className=" w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-7/12">
-                <div className="px-6 py-12 md:px-12">
-                  <h2 className="mb-4 text-2xl font-bold">
-                    What's the secret of the great taste?
-                  </h2>
-                  <p className="mb-6 flex items-center font-bold uppercase text-danger dark:text-danger-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="currentColor" className="mr-2 h-5 w-5">
-                      <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
-                      <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
-                    </svg>
-                    Hot news
+                <div className="md:px-12 mx-14 ">
+                  <h1 className="mt-16 mb-5 text-2xl text-amber-400">Servicios</h1>
+                  <p className="mb-16 text-white font-bold">
+                    Somos una empresa dedicada al desarrollo de productos y servicios para el entretenimiento familiar.
                   </p>
-                  <p className="mb-6 text-neutral-500 dark:text-neutral-300">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Earum maxime voluptas ipsam aliquam itaque cupiditate
-                    provident architecto expedita harum culpa odit, inventore rem
-                    molestias laborum repudiandae corporis pariatur quo eius iste!
-                    Quaerat, assumenda voluptates! Molestias, recusandae? Maxime
-                    fuga omnis ducimus.
-                  </p>
-                  <p className="text-neutral-500 dark:text-neutral-300">
-                    Commodi ut nisi assumenda alias maxime necessitatibus ad rem
-                    repellat explicabo, reiciendis illum suscipit iusto? Provident
-                    dignissimos similique, reiciendis inventore accusantium unde
-                    mollitia, deleniti quae atque error id perspiciatis illum.
-                    Laboriosam aperiam ab illo dignissimos obcaecati corporis
-                    similique a odio, optio iste quis placeat alias amet rerum
-                    sint quos dolor pariatur inventore possimus ad consequuntur
-                    fugiat perferendis consectetur laudantium.
-                  </p>
+                  <div className="mb-20 flex items-center gap-8">
+                    <Image src={FamilyIcon} className="w-32" alt={""} />
+                    <p className="text-white font-bold">
+                      Ofrecemos alquiler de carros 4x4 para conducir en nuestras pistas ubicadas en centros comerciales. Destinado para niños, jóvenes y adultos.
+                    </p>
+                  </div>
+                  <div className="mb-20 flex items-center gap-8">
+                    <Image src={CarOnlyIcon} className="w-32" alt={""} />
+                    <p className="text-white font-bold">
+                      Nuestro producto principal son nuestras pistas tematicas para carros a control remoto de escala 1/24. Pista interactiva con mecanismos, luces y sonido de ambientacion.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-8">
+                    <Image src={RaceTrack} className="w-32" alt={""} />
+                    <p className="text-white font-bold">
+                      Recorrido por jugador de entre 6 y 10 minutos. Jugabilidad sencilla y practica. Diferentes tipos de superficies y obstaculos para superar.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="hidden shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-5/12">
-              <Image src={KidPlaying} className="w-full" alt={""} />
+                <Image src={KidPlaying} className="w-full h-screen" alt={""} />
               </div>
             </div>
           </div>
         </section>
+        <div className="w-full h-4 bg-amber-400"></div>
       </div>
     </main>
   );
