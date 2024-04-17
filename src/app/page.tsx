@@ -20,9 +20,9 @@ export default function Home() {
         <div id="Triangle"></div>
         <div className="hero-content text-left  text-neutral-content" >
           <div className="h-screen" id="HeroText" >
-            <h1 className="mb-5 ">PISTAS A <span className="text-amber-400 mb-5 ">TODO TERRENO </span> PARA LOS MEJORES <span className="text-amber-400 mb-5 ">4X4 RC!</span></h1>
+            <h1 className="mb-5 lg:text-5xl">PISTAS A <span className="text-amber-400 mb-5 lg:text-5xl">TODO TERRENO </span> PARA LOS MEJORES <span className="text-amber-400 mb-5 ">4X4 RC!</span></h1>
             <br />
-            <h1 className="mb-5 text-4xl"> <span className="text-amber-400 mb-5 text-4xl">ENTRETENIMIENTO</span> PARA TODA LA <span className="text-amber-400 mb-5 text-4xl">FAMILIA</span></h1>
+            <h1 className="mb-5 lg:text-4xl"> <span className="text-amber-400 mb-5 lg:text-4xl">ENTRETENIMIENTO</span> PARA TODA LA <span className="text-amber-400 mb-5 text-4xl">FAMILIA</span></h1>
             <a href="https://forms.gle/7VcTqMiccPAEiPha9" className="font-sans text-bold"><button className="btn btn-warning  text-2xl">Contactanos</button></a>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center">
             <div className=" w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-7/12">
               <div className="md:px-12 mx-14">
-                <h1 className="mt-16 mb-5  text-amber-400">Servicios</h1>
+                <h1 className="mt-16 mb-5 lg:text-5xl text-amber-400">Servicios</h1>
                 <p className="mb-16 text-white font-bold">
                   Somos una empresa dedicada al desarrollo de productos y servicios para el entretenimiento familiar.
                 </p>
@@ -49,7 +49,7 @@ export default function Home() {
                     Nuestro producto principal son nuestras pistas tematicas para carros a control remoto de escala 1/24. Pista interactiva con mecanismos, luces y sonido de ambientacion.
                   </p>
                 </div>
-                <div className="flex items-center gap-8">
+                <div className="flex items-center gap-8 mb-10">
                   <Image src={RaceTrack} className="w-32" alt={""} />
                   <p className="text-white font-bold">
                     Recorrido por jugador de entre 6 y 10 minutos. Jugabilidad sencilla y practica. Diferentes tipos de superficies y obstaculos para superar.
@@ -66,14 +66,14 @@ export default function Home() {
       <div className="w-full h-4 bg-amber-400"></div>
       <section className="md:px-12 mx-14" id="tracks">
         <div>
-          <h2 className="mb-5 mt-16  text-amber-400">TRACKS</h2>
+          <h2 className="mb-5 mt-16 lg:text-5xl text-amber-400">TRACKS</h2>
           <h1 className=" text-white">ELIGE EL MEJOR CARRO RC Y SUPERA LOS DESAFIOS QUE TE OFRECE RC TRACKS!</h1>
         </div>
               </section>
         <div className="my-12 flex flex-wrap gap-10 items-center justify-center h-96">
           <div className="card w-1/4 shadow-xl relative bg-base-100 bg-[url('../../public/Bosque.png')]" id="card">
             <div className="card-header rounded-xl  bg-black bg-opacity-50 pb-1 flex items-center justify-center">
-              <h2 className=" text-white m-4">EL BOSQUE EN RUINAS</h2>
+              <h2 className=" text-white lg:text-2xl m-4">EL BOSQUE EN RUINAS</h2>
             </div>
             <div className="card-body">
               <p></p>
@@ -85,7 +85,7 @@ export default function Home() {
 
           <div className="card w-1/4 bg-base-100 shadow-xl relative bg-[url('../../public/Volcan.png')]" id="card">
             <div className="card-header rounded-xl bg-black bg-opacity-50 pb-1 flex items-center justify-center">
-              <h2 className=" text-white m-4">EL VOLCAN</h2>
+              <h2 className=" text-white lg:text-2xl m-4">EL VOLCAN</h2>
             </div>
             <div className="card-body h-5/6">
               <p></p>
@@ -96,7 +96,7 @@ export default function Home() {
           </div>
           <div className="card w-1/4 bg-base-100 shadow-xl bg-[url('../../public/LaMina.png')]" id="card">
             <div className="card-header rounded-xl bg-black bg-opacity-50 pb-1 flex items-center justify-center">
-              <h2 className=" text-white m-4">LA MINA</h2>
+              <h2 className=" text-white lg:text-2xl m-4">LA MINA</h2>
             </div>
             <div className="card-body">
               <p></p>
@@ -112,7 +112,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center">
             <div className=" w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-5/12">
               <div className="md:px-12 m-14">
-                <h2 className="mt-16 mb-5 text-amber-400">LOCACIONES</h2>
+                <h2 className="mt-16 mb-5 lg:text-5xl text-amber-400">LOCACIONES</h2>
                 <p className="mb-16 text-white font-bold">
                   Estamos ubicados en el mekatiadero de niquia y abriremos mas locaciones pronto.
                 </p>
@@ -131,7 +131,7 @@ export default function Home() {
       <section className="dark:bg-gray-900" id="contactenos">
         <div className="container px-6 py-12 md:px-12 mx-14">
           <div>
-            <h2 className="mt-16 mb-5  text-amber-400">CONTACTENOS</h2>
+            <h2 className="mt-16 mb-5 lg:text-5xl  text-amber-400">CONTACTENOS</h2>
             <p className="text-white font-bold">Si quieres dejar tus datos para nosotros contactarte, <a className="underline font-sans text-amber-400" href="https://forms.gle/7VcTqMiccPAEiPha9">Presiona aqui.</a></p>
             <p className="mt-3 text-white font-bold">Aqui estamos para resolver cualquier inquietud.</p>
           </div>
