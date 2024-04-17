@@ -73,7 +73,7 @@ export default function Home() {
         <div className="my-12 flex flex-wrap gap-10 items-center justify-center h-96">
           <div className="card w-1/4 shadow-xl relative bg-base-100 bg-[url('../../public/Bosque.png')]" id="card">
             <div className="card-header rounded-xl  bg-black bg-opacity-50 pb-1 flex items-center justify-center">
-              <h2 className=" text-white lg:text-2xl m-4">EL BOSQUE EN RUINAS</h2>
+              <h2 className=" text-white lg:text-2xl m-4">BOSQUE</h2>
             </div>
             <div className="card-body">
               <p></p>
@@ -85,7 +85,7 @@ export default function Home() {
 
           <div className="card w-1/4 bg-base-100 shadow-xl relative bg-[url('../../public/Volcan.png')]" id="card">
             <div className="card-header rounded-xl bg-black bg-opacity-50 pb-1 flex items-center justify-center">
-              <h2 className=" text-white lg:text-2xl m-4">EL VOLCAN</h2>
+              <h2 className=" text-white lg:text-2xl m-4">VOLCAN</h2>
             </div>
             <div className="card-body h-5/6">
               <p></p>
@@ -96,7 +96,7 @@ export default function Home() {
           </div>
           <div className="card w-1/4 bg-base-100 shadow-xl bg-[url('../../public/LaMina.png')]" id="card">
             <div className="card-header rounded-xl bg-black bg-opacity-50 pb-1 flex items-center justify-center">
-              <h2 className=" text-white lg:text-2xl m-4">LA MINA</h2>
+              <h2 className=" text-white lg:text-2xl m-4">MINA</h2>
             </div>
             <div className="card-body">
               <p></p>
