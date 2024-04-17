@@ -39,7 +39,8 @@ body {
 
 h1, h2, h3, span, a {
   font-family: 'american_captainregular', Arial, sans-serif;
-  font-size: large;
+  font-size: 1.5rem;
+
 }
 
 #HeroSection {
@@ -51,6 +52,7 @@ h1, h2, h3, span, a {
   border-top: 60vh solid transparent;
   border-bottom: 60vh solid transparent;
   border-left: 110vh solid rgb(0, 0, 0);
+  border-right: 50vh;
 }
 
 #HeroText {
