@@ -57,6 +57,18 @@ h1, h2, h3, span, a {
   padding-top: 40vh;
   max-width: 80%;
 }
+@media screen and (max-width: 900px) {
+  #Triangle {
+    width: 100%;
+    display: none;
+  }
+  #HeroText {
+    width: 100%;
+    padding: 20vh 10vw; /* Adjust as needed */
+    display: none;
+  }
+}
+
 #card{
   min-height: 100%;
   background-size: cover;
