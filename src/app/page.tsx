@@ -20,7 +20,7 @@ export default function Home() {
         <div id="Triangle"></div>
         <div className="hero-content text-left  text-neutral-content" >
           <div className="h-screen" id="HeroText" >
-            <h1 className="mb-5 lg:text-5xl">PISTAS A <span className="text-amber-400 mb-5 lg:text-5xl">TODO TERRENO </span> PARA LOS MEJORES <span className="text-amber-400 mb-5 ">4X4 RC!</span></h1>
+            <h1 className="mb-5 lg:text-5xl">PISTAS A <span className="text-amber-400 mb-5 lg:text-5xl">TODO TERRENO </span> PARA LOS MEJORES <span className="text-amber-400 mb-5 lg:text-5xl">4X4 RC!</span></h1>
             <br />
             <h1 className="mb-5 lg:text-4xl"> <span className="text-amber-400 mb-5 lg:text-4xl">ENTRETENIMIENTO</span> PARA TODA LA <span className="text-amber-400 mb-5 text-4xl">FAMILIA</span></h1>
             <a href="https://forms.gle/7VcTqMiccPAEiPha9" className="font-sans text-bold"><button className="btn btn-warning  text-2xl">Contactanos</button></a>
@@ -132,7 +132,7 @@ export default function Home() {
         <div className="container px-6 py-12 md:px-12 mx-14">
           <div>
             <h2 className="mt-16 mb-5 lg:text-5xl  text-amber-400">CONTACTENOS</h2>
-            <p className="text-white font-bold">Si quieres dejar tus datos para nosotros contactarte, <a className="underline font-sans text-amber-400" href="https://forms.gle/7VcTqMiccPAEiPha9">Presiona aqui.</a></p>
+            <p className="text-white font-bold">Para poner una pista en tu evento o local, comunicate al telefono o Email de abajo, o <a className="underline font-sans text-amber-400" href="https://forms.gle/7VcTqMiccPAEiPha9">Presiona aqui.</a></p>
             <p className="mt-3 text-white font-bold">Aqui estamos para resolver cualquier inquietud.</p>
           </div>
 
